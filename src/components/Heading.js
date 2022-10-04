@@ -5,7 +5,7 @@ export default function Heading(props) {
     <>
       <div className="container   lg:mb-10 md:m-0 sm:m-2  text-center  sm:p-5  " id="Home">
         <img
-          className="p-1 w-40 h-40 mx-auto rounded-full  ring-2 ring-blue-900 dark:ring-gray-500 "
+          className="p-1 w-40 h-40 mx-auto rounded-full  ring-2 ring-blue-600 dark:ring-gray-500 "
           src={props.img}
           alt="Bordered avatar"
         />
