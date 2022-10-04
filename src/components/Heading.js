@@ -5,15 +5,15 @@ export default function Heading(props) {
     <>
       <div className="container   lg:mb-10 md:m-0 sm:m-2  text-center  sm:p-5  " id="Home">
         <img
-          className="p-1 w-40 h-40 mx-auto rounded-full  ring-2 ring-blue-600 dark:ring-gray-500 "
+          className="p-1 w-40 h-40 mx-auto rounded-full  ring-2 ring-blue-600  "
           src={props.img}
           alt="Bordered avatar"
         />
 
-        <h2 className="mb-4 pt-4 font-serif  text-3xl font-extrabold tracking-tight leading-none text-white md:text-4xl lg:text-5xl lg:pt-7 dark:text-white sm:pt-12">
+        <h2 className="mb-4 pt-4 font-serif  text-3xl font-extrabold tracking-tight leading-none text-white md:text-4xl lg:text-5xl lg:pt-7  sm:pt-12">
           I am Dalpat Singh Rathore.
         </h2>
-        <p className="mb-8 m-2 text-md font-sans font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+        <p className="mb-8 m-2 text-md font-sans font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
           I am a Full-stack developer web developer, a Fresher. I am working on
           my own projects which made me a very good and creative developer. I
           have knowledge of both front-end , back-end and database too. Aspiring
@@ -23,7 +23,7 @@ export default function Heading(props) {
         <a href="https://www.facebook.com/profile.php?id=100012618109014">
         <button
           type="button"
-          className="text-white bg-[#3b5998] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 mr-2 mb-2"
+          className="text-white bg-[#3b5998] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2"
         >
           <svg
             className="mr-2 -ml-1 w-4 h-4"
@@ -46,7 +46,7 @@ export default function Heading(props) {
         <a href="https://github.com/dalpat49/dalpat49">
         <button
           type="button"
-          className="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2"
+          className="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center  mr-2 mb-2"
         >
           <svg
             className="mr-2 -ml-1 w-4 h-4"
@@ -69,7 +69,7 @@ export default function Heading(props) {
         <a href="mailto:singhdalpat8182@gmail.com">
         <button
           type="button"
-          className="text-white bg-[#4285F4] hover:bg-[#4285F4]/90 focus:ring-4 focus:outline-none focus:ring-[#4285F4]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#4285F4]/55 mr-2 mb-2"
+          className="text-white bg-[#4285F4] hover:bg-[#4285F4]/90 focus:ring-4 focus:outline-none focus:ring-[#4285F4]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center  mr-2 mb-2"
         >
           <svg
             className="mr-2 -ml-1 w-4 h-4"

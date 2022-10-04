@@ -2,20 +2,20 @@ import React from "react";
 
 export default function Majorprojects(props) {
   return (
-    <div className="max-w-sm mx-auto lg:w-max-sm md:w-max-sm h-30 bg-slate-400 rounded-lg border border-gray-200 shadow-md   hover:border-slate-500 hover:ring-1  hover:ring-slate-300  dark:bg-gray-800 dark:border-gray-700">
+    <div className="max-w-sm mx-auto lg:w-max-sm md:w-max-sm h-30 bg-slate-400 rounded-lg border border-gray-200 shadow-md   hover:border-slate-500 hover:ring-1  hover:ring-slate-300  ">
       <div className="p-5">
         <a href="/">
-          <h5 className="mb-2 text-2xl  tracking-tight text-white dark:text-white">
+          <h5 className="mb-2 text-2xl  tracking-tight text-white ">
         {props.tittle}
           </h5>
         </a>
-        <p className="mb-3 font-normal text-slate-900 dark:text-gray-400">
+        <p className="mb-3 font-normal text-slate-900 ">
       {props.pdescription}
         </p>
         <a href={props.githublink}>
         <button
           type="button"
-          className="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2"
+          className="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center  mr-2 mb-2"
         >
           <svg
             className="mr-2 -ml-1 w-4 h-4"

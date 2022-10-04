@@ -4,20 +4,19 @@ export default function Footer() {
   return (
     <footer>
       <div className="container">
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <hr className="my-6 border-gray-200 sm:mx-auto dlg:my-8" />
 
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-md text-gray-500 sm:text-center dark:text-gray-400">
-            © 2022{" "}
+          <span className="text-md text-gray-500 sm:text-center ">
             <a href="https://flowbite.com/" className="hover:underline">
               DalpatProfile
             </a>
-            . All Rights Reserved.
+            .Developed with ❤ by Dalpat singh rathore.
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0 ">
             <a
               href="https://www.facebook.com/profile.php?id=100012618109014"
-              className="text-gray-500 hover:text-[#3b5998] dark:hover:text-white"
+              className="text-gray-500 hover:text-[#3b5998]"
             >
               <svg
                 className="w-8 h-8 "
@@ -35,7 +34,7 @@ export default function Footer() {
             </a>
             <a
               href="https://www.instagram.com/dalpat_rathore09/"
-              className="text-gray-500 hover:text-red-900 dark:hover:text-white"
+              className="text-gray-500 hover:text-red-900 "
             >
               <svg
                 className="w-8 h-8 "
@@ -51,10 +50,10 @@ export default function Footer() {
               </svg>
               <span className="sr-only">Instagram page</span>
             </a>
-            
+
             <a
               href="https://github.com/dalpat49/dalpat49"
-              className="text-gray-500 hover:text-[#24292F] dark:hover:text-white"
+              className="text-gray-500 hover:text-[#24292F] "
             >
               <svg
                 className="w-8 h-8 "
@@ -70,7 +69,6 @@ export default function Footer() {
               </svg>
               <span className="sr-only">GitHub account</span>
             </a>
-          
           </div>
         </div>
       </div>

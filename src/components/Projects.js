@@ -15,10 +15,10 @@ export default function Projects(props) {
         >
           <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
         </svg>
-        <h3 className="mb-2 pb-1   text-3xl text-white font-serif tracking-tight leading-none md:text-3xl lg:text-4xl lg:pt-2 dark:text-white sm:pt-1">
+        <h3 className="mb-2 pb-1   text-3xl text-white font-serif tracking-tight leading-none md:text-3xl lg:text-4xl lg:pt-2 sm:pt-1">
           Projects that have I created!
         </h3>
-        <p className="mb-2 m-2 text-lg font-sans font-normal text-gray-500 lg:text-lg sm:px-16 xl:px-48 dark:text-gray-400">
+        <p className="mb-2 m-2 text-lg font-sans font-normal text-gray-500 lg:text-lg sm:px-16 xl:px-48 ">
           Created a few projects based on front-End and backend.
 </p>
       </div>
